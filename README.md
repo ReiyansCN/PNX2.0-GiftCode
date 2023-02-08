@@ -25,3 +25,4 @@ A Gift code plugin for PowerNukkitX
 6. 修复一个潜在的创建礼包码时的空指针问题
 7. 规范API命名中的语法单词问题
 8. 新增指定礼包码格式功能(参数面板中,仅限公用礼包码),*号代表随机填充的字符
+<br>原作者发布地址https://www.mcbbs.net/thread-1057414-1-1.html

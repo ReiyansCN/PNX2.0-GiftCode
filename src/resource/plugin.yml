@@ -1,0 +1,11 @@
+name: GiftCode
+main: cn.innc11.giftcode.GiftCodePlugin
+version: "1.7"
+author: "innc&Reiyans&XKSHADOW"
+api: ["1.0.9"]
+description: gift code plugin
+commands:
+  giftcode:
+    usage: "/code"
+    aliases: ["code"]
+    description: "open the panel of GiftCode"

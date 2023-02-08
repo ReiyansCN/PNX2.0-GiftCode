@@ -5,6 +5,7 @@ A Gift code plugin for PowerNukkitX
 
 #### 1.7
 + 字符串保存物品
+
 +插件完全加载后填充礼包内容---完全兼容PNX自定义物品
 +修复无法保存nbt，附魔，自定义名字的BUG
 +历史遗留bug修复+ 字符串保存物品

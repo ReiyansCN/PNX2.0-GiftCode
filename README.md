@@ -1,8 +1,10 @@
 # GiftCode
 A Gift code plugin for PowerNukkitX
-原作者-innc11,现已不再更新,该PNX版本本人维护
-## Reiyans and Jlshr更新记录
+原作者-innc11,现已不再更新,推荐更换为这个对pnx特制版本
+## Reiyans and XKSHADOW更新记录
 
+#### 1.8
+1.修复删除礼包报错
 #### 1.7
  1.字符串保存物品
 <br> 2.插件完全加载后填充礼包内容---完全兼容PNX自定义物品

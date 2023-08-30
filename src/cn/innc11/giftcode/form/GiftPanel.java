@@ -124,22 +124,7 @@ public class GiftPanel extends FormWindowSimple implements FormResponse
 
 			case 4:
 			{
-				depends = gift.getCodeSet();
-
-				if (depends.isEmpty())
-				{
-					player.showFormWindow(new RemoveGiftConfirmPanel(gift.uuid));
-					break;
-				}
-
-				msg = gift.label+"有被依赖关系,包括这些礼包码: ";
-				for (Codes codeSet : depends)
-				{
-					msg += codeSet.label + ",";
-				}
-
-				msg += " 需要先删除这些礼包码然后才能再删除这个礼包";
-				player.sendMessage(msg);
+				player.showFormWindow(new RemoveGiftConfirmPanel(gift.uuid));
 				break;
 			}
 		}

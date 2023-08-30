@@ -1,6 +1,6 @@
 name: GiftCode
 main: cn.innc11.giftcode.GiftCodePlugin
-version: "1.7"
+version: "1.8"
 author: "innc&Reiyans&XKSHADOW"
 api: ["1.0.9"]
 description: gift code plugin

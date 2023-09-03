@@ -3,6 +3,7 @@ package cn.innc11.giftcode.form;
 import cn.innc11.giftcode.GiftCodePlugin;
 import cn.innc11.giftcode.dt.Codes;
 import cn.innc11.giftcode.dt.Gift;
+import cn.innc11.giftcode.utils.RandomAlphabetGenerator;
 import cn.nukkit.Player;
 import cn.nukkit.event.player.PlayerFormRespondedEvent;
 import cn.nukkit.form.element.ElementButton;
@@ -33,7 +34,7 @@ public class GiftPanel extends FormWindowSimple implements FormResponse
 				gift.uuid = UUID.randomUUID();
 			}while (plugin.getGiftWithUUID(gift.uuid)!=null);
 
-			gift.label = gift.uuid.toString().substring(0, 6);
+			gift.label = RandomAlphabetGenerator.generateRandomString(7);
 			plugin.addGift(gift);
 
 			giftUuid = gift.uuid.toString();

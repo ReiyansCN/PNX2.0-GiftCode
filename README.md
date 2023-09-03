@@ -3,6 +3,8 @@ A Gift code plugin for PowerNukkitX
 原作者-innc11,现已不再更新,推荐更换为这个对pnx特制版本
 ## Reiyans and XKSHADOW更新记录
 
+#### 1.9
+1.修复可能由礼包标签引发的奇怪错误
 #### 1.8
 1.修复删除礼包报错
 #### 1.7
